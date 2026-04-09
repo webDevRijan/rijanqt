@@ -80,8 +80,8 @@ function About() {
             </div>
             <h2>Technical Implementation</h2>
             <p>
-              The Student Resource Hub demonstrates a frontend architecture
-              using local data storage:
+              The website demonstrates a frontend architecture using local data
+              storage:
             </p>
             <ul className="tech-list">
               <li>
