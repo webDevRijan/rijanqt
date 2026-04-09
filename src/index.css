@@ -571,11 +571,13 @@ body {
     box-shadow: var(--shadow-lg);
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3s ease;
+    visibility: hidden;
+    transition: max-height 0.3s ease, visibility 0.3s ease;
   }
 
   .nav-links.active {
     max-height: 300px;
+    visibility: visible;
   }
 
   .nav-link {

@@ -6,8 +6,8 @@ function Footer() {
       <div className="footer-container">
         <div className="footer-content">
           <div className="footer-section">
-            <h3>Student Resource Hub</h3>
-            <p>Your gateway to educational resources</p>
+            <h3>RijanQT's Website</h3>
+            <p>Just another project to escape College</p>
           </div>
           <div className="footer-section">
             <h4>Quick Links</h4>
@@ -24,9 +24,7 @@ function Footer() {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>
-            &copy; {currentYear} Student Resource Hub. Developed by RijanQT.
-          </p>
+          <p>&copy; {currentYear} Developed by RijanQT.</p>
         </div>
       </div>
     </footer>

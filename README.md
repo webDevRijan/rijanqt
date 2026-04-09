@@ -18,17 +18,20 @@ This application demonstrates a simple frontend-first data architecture:
 ## Technology Stack
 
 ### Frontend
+
 - React 18 with TypeScript
 - Pure CSS (no frameworks)
 - Responsive design with mobile support
 - Lucide React for icons
 
 ### Backend
+
 - No backend required; the app loads metadata from a local JSON file
 - Static React user interface with client-side data rendering
 - REST-like resource listing from static data
 
 ### Features
+
 - Local JSON-backed resource listing
 - External file server integration
 - Loading states and error handling
@@ -58,26 +61,29 @@ student-resource-hub/
 ## Getting Started
 
 ### Prerequisites
+
 - Node.js (v16 or higher)
 - npm or yarn
 
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone <repository-url>
 cd student-resource-hub
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
-
 ### Running the Application
 
 Start the development server:
+
 ```bash
 npm run dev
 ```
@@ -95,9 +101,11 @@ The built files will be in the `dist/` directory.
 ## How It Works
 
 ### Web Server Concept
+
 The Resources page loads its list of materials directly from a local JSON data file. This eliminates the need for a backend API or external database.
 
 ### File Server Concept
+
 Downloadable files are still hosted externally to demonstrate separate file delivery, while metadata remains self-contained in the frontend application.
 
 1. File metadata (title, description) is stored in the database
@@ -108,6 +116,7 @@ Downloadable files are still hosted externally to demonstrate separate file deli
 ### Database Structure
 
 **Resources Table:**
+
 - `id` - Unique identifier
 - `title` - Resource name
 - `description` - Resource details
@@ -118,9 +127,11 @@ Downloadable files are still hosted externally to demonstrate separate file deli
 ## API Endpoints
 
 ### GET /functions/v1/resources
+
 Returns a list of all available resources.
 
 **Response:**
+
 ```json
 [
   {
@@ -158,13 +169,17 @@ Returns a list of all available resources.
 ## Development Notes
 
 ### Styling
+
 All styles are written in pure CSS using CSS custom properties (variables) for theming. No CSS frameworks like Tailwind or Bootstrap were used.
 
 ### State Management
+
 Simple React state management using `useState` for navigation and data fetching.
 
 ### API Integration
+
 The Resources page demonstrates real-world API integration with:
+
 - Loading states
 - Error handling
 - Retry functionality

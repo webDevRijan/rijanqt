@@ -1,4 +1,4 @@
-import { BookOpen, Server, Database } from 'lucide-react';
+import { BookOpen, Server, Database } from "lucide-react";
 
 interface HomeProps {
   onNavigate: (page: string) => void;
@@ -9,12 +9,15 @@ function Home({ onNavigate }: HomeProps) {
     <div className="page home-page">
       <section className="hero-section">
         <div className="hero-content">
-          <h1 className="hero-title">Welcome to Student Resource Hub</h1>
+          <h1 className="hero-title">Welcome to RijanQT's Website</h1>
           <p className="hero-description">
-            Your centralized platform for accessing educational resources, demonstrating
-            the integration of web servers and file servers in modern web applications.
+            The website developed by Rijan R. Palomera to accomplished an
+            activity project and escape College.
           </p>
-          <button className="cta-button" onClick={() => onNavigate('resources')}>
+          <button
+            className="cta-button"
+            onClick={() => onNavigate("resources")}
+          >
             View Resources
           </button>
         </div>
@@ -29,8 +32,8 @@ function Home({ onNavigate }: HomeProps) {
             </div>
             <h3>Web Server</h3>
             <p>
-              The application runs on a web server built with Node.js and Express,
-              handling HTTP requests and serving dynamic content.
+              The application runs on a web server built with Node.js and
+              Express, handling HTTP requests and serving dynamic content.
             </p>
           </div>
 
@@ -51,8 +54,8 @@ function Home({ onNavigate }: HomeProps) {
             </div>
             <h3>File Server</h3>
             <p>
-              Downloadable files are hosted on external file servers (like Google Drive),
-              demonstrating distributed file storage architecture.
+              Downloadable files are hosted on external file servers (Google
+              Drive), demonstrating distributed file storage architecture.
             </p>
           </div>
         </div>

@@ -16,7 +16,7 @@ function About() {
             <div className="about-icon">
               <GraduationCap size={48} />
             </div>
-            <h2>Student Information</h2>
+            <h2>RijanQT's Information</h2>
             <div className="info-grid">
               <div className="info-item">
                 <strong>Name:</strong> <span>Rijan R. Palomera</span>
@@ -29,7 +29,7 @@ function About() {
               </div>
               <div className="info-item">
                 <strong>Subject:</strong>{" "}
-                <span>Web Development & Server Architecture</span>
+                <span>Systems Administration and Maintenance</span>
               </div>
             </div>
           </div>

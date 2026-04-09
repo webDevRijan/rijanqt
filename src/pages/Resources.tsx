@@ -1,5 +1,5 @@
-import resourcesData from '../data/resources.json';
-import { Download, ExternalLink } from 'lucide-react';
+import resourcesData from "../data/resources.json";
+import { Download, ExternalLink } from "lucide-react";
 
 interface Resource {
   id: string;
@@ -17,7 +17,7 @@ function Resources() {
       <div className="resources-container">
         <header className="resources-header">
           <h1>Available Resources</h1>
-          <p>Download educational materials hosted on our file server</p>
+          <p>Download educational materials hosted on my file server</p>
         </header>
 
         {resources.length === 0 ? (
