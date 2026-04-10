@@ -11,7 +11,7 @@ function Home({ onNavigate }: HomeProps) {
         <div className="hero-content">
           <h1 className="hero-title">Welcome to RijanQT's Website</h1>
           <p className="hero-description">
-            The website developed by Rijan R. Palomera to accomplished an
+            The website developed by Rijan R. Palomera, a BSIT 3-F2 student to accomplished an
             activity project and escape College.
           </p>
           <button

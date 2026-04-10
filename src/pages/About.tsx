@@ -31,9 +31,9 @@ function About() {
                 <strong>Name:</strong> <span>Rijan R. Palomera</span>
               </div>
               <div className="info-item">
-                <strong>Course:</strong>{" "}
+                <strong>Course & Section:</strong>{" "}
                 <span>
-                  Bachelor of Science in Information Technology (BSIT)
+                  Bachelor of Science in Information Technology (BSIT)-F2
                 </span>
               </div>
               <div className="info-item">
